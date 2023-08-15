@@ -110,5 +110,135 @@
             "localizacao": "Mountain Range",
             "obs": "Breathtaking views and hiking trails nearby."
         }
-    ]
+    ],
+    "api/imoveis": {
+        "qtd": 5,
+        "imoveis": [
+            {
+                "id": 1,
+                "rent": 1500.75,
+                "condominium": 300.5,
+                "taxes": 200.25,
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "size": 1100.5,
+                "address": "1234 Elm Street, Apartment 5A, Cityville",
+                "description": "Cozy apartment with modern amenities and great city views. Conveniently located near shopping centers and public transportation.",
+                "characteristics": {
+                    "furnished": true,
+                    "garden": false,
+                    "balcony": true,
+                    "service_area": true,
+                    "recreation_area": false,
+                    "gym": false,
+                    "parking": true
+                },
+                "image_links": [
+                    "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                    "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                    "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80"
+                ]
+            },
+            {
+                "id": 2,
+                "rent": 2200.25,
+                "condominium": 500.75,
+                "taxes": 350.25,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "size": 1600.75,
+                "address": "5678 Oak Avenue, Unit 10B, Townsville",
+                "description": "Spacious and modern apartment with high-end finishes. Features a gourmet kitchen, large living area, and private balcony.",
+                "characteristics": {
+                    "furnished": false,
+                    "garden": true,
+                    "balcony": true,
+                    "service_area": true,
+                    "recreation_area": true,
+                    "gym": true,
+                    "parking": true
+                },
+                "image_links": [
+                    "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+                    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                    "https://images.unsplash.com/photo-1502672023488-70e25813eb80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80"
+                ]
+            },
+            {
+                "id": 3,
+                "rent": 1800.5,
+                "condominium": 400.25,
+                "taxes": 250.5,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "size": 900.25,
+                "address": "9876 Maple Lane, Apt 3C, Villagetown",
+                "description": "Charming one-bedroom apartment with a vintage touch. Located in a quiet neighborhood with easy access to parks and cafes.",
+                "characteristics": {
+                    "furnished": true,
+                    "garden": false,
+                    "balcony": false,
+                    "service_area": false,
+                    "recreation_area": true,
+                    "gym": false,
+                    "parking": true
+                },
+                "image_links": [
+                    "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                    "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+                    "https://images.unsplash.com/photo-1628592102751-ba83b0314276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1397&q=80"
+                ]
+            },
+            {
+                "id": 4,
+                "rent": 1300.75,
+                "condominium": 250.5,
+                "taxes": 180.25,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "size": 1000.0,
+                "address": "4567 Pine Street, Apt 2B, Suburbia",
+                "description": "Bright and inviting apartment with updated interiors. Close to schools, parks, and public transportation.",
+                "characteristics": {
+                    "furnished": false,
+                    "garden": true,
+                    "balcony": true,
+                    "service_area": true,
+                    "recreation_area": false,
+                    "gym": false,
+                    "parking": true
+                },
+                "image_links": [
+                    "https://plus.unsplash.com/premium_photo-1672252617602-e5de5c6aba9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80",
+                    "https://images.unsplash.com/photo-1556020685-ae41abfc9365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "https://plus.unsplash.com/premium_photo-1683769251695-963095b23d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                ]
+            },
+            {
+                "id": 5,
+                "rent": 2500.5,
+                "condominium": 600.25,
+                "taxes": 400.75,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "size": 1800.5,
+                "address": "7890 Cedar Lane, Unit 15C, Metropolis",
+                "description": "Modern and stylish apartment with panoramic city views. Features an open-concept layout and high-end appliances.",
+                "characteristics": {
+                    "furnished": true,
+                    "garden": false,
+                    "balcony": true,
+                    "service_area": true,
+                    "recreation_area": true,
+                    "gym": true,
+                    "parking": true
+                },
+                "image_links": [
+                    "https://images.unsplash.com/photo-1489370321024-e0410ad08da4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdXNlcyUyMGZvciUyMHJlbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+                    "https://images.unsplash.com/photo-1647996179012-66b87eba3d17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdXNlcyUyMGZvciUyMHJlbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+                    "https://images.unsplash.com/photo-1603111691727-abfc40e13d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                ]
+            }
+        ]
+    }
 }
