@@ -1,5 +1,5 @@
 {
-    "api/imoveis": {
+    "imoveis": {
         "qtd": 3,
         "imoveis": [
             {
