@@ -4,6 +4,7 @@
         "imoveis": [
             {
                 "id": 1,
+                "name": "Cozy Haven Apartments",
                 "rent": 1500.75,
                 "condominium": 300.5,
                 "taxes": 200.25,
@@ -29,6 +30,7 @@
             },
             {
                 "id": 2,
+                "name": "Urban Oasis Residences",
                 "rent": 2200.25,
                 "condominium": 500.75,
                 "taxes": 350.25,
@@ -54,6 +56,7 @@
             },
             {
                 "id": 3,
+                "name": "Tranquil Retreat Estates",
                 "rent": 1800.5,
                 "condominium": 400.25,
                 "taxes": 250.5,
